@@ -1,0 +1,42 @@
+<!--
+    Adicionando arquivos JS externos.
+
+    Os comando de PHP não estão funcionando dentro dos arquivos JS externos. Por isso, precisamos sempre que formos usar uma variavel PHP em um arquivo externo de JS, criar uma variael em JS no script abaixo. Depois disso, basta acessar a variavel criada dentro do JS
+-->
+<script type="text/javascript">
+    // Variaveis PHP utilizadas nos srcipts JS - Script de URL Menu
+    let home = '<?php echo HOME; ?>';
+    let back = '<?php echo BACK; ?>';
+
+</script>
+
+<!-- Script JS URL Menu -->
+<script type="text/javascript" src='<?php echo JS."/funcoesUrlMenu.js";?>'></script>
+
+<!-- Script JS CEP -->
+<script type="text/javascript" src='<?php echo JS."/funcoesCep.js";?>'></script>
+
+<!-- Script JS MASCARA -->
+<script type="text/javascript" src='<?php echo JS."/MascaraValidacao.js";?>'></script>
+
+<!-- Scripts JS funcoes -->
+<script type="text/javascript" src='<?php echo JS."/funcoesValidacoes.js";?>'></script>
+
+<!-- Scripts JS Salvar -->
+<script type="text/javascript" src='<?php echo JS."/funcoesSalvarUpdate.js";?>'></script>
+
+<!--script type="text/javascript" src='<?php echo GERENCIADOR."/inc/js/funcoesGerenciador.js";?>'></script>-->
+
+
+<!-- Jquery.js, Popper.js e Bootstrap.js -->
+<!--<script src='<?php echo JS."/jquery-3.5.1.min.js";?>'></script>-->
+<script src='<?php echo NODEMODULES."/popper.js/dist/umd/popper.min.js";?>'></script>
+<script src='<?php echo NODEMODULES."/bootstrap/dist/js/bootstrap.min.js";?>'></script>
+<script src='<?php echo JS."/functionsVisual.js";?>'></script>
+<!-- ============================================================================================= -->
+
+
+
+</body>
+
+</html>

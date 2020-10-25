@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <title>SIAP - Sistema Integrado de Apoio ao Paciente</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Link referente ao Bootstrp4 -->
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+
+  <!-- Link referente a pasta CSS -->
+  <link rel="stylesheet" href="../css/form.css">
+
+  <!-- Link referente a Font Awesome -->
+  <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+  <link rel="stylesheet" href="../css/w3.css">
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="w3-panel w3-round-large w3-border w3-card-4 logo mt-0">
+      <div class="w3-left w3-small w3-padding">
+        <img src="../img/HENE MUNDO BRANCO.png" alt="Logo" style="width:80px;">
+      </div>
+      <div class="w3-center w3-padding-16">
+        <h4 class="w3-left"> SIAP - HENE </h4>
+        <!-- <h4 class="w3-left"> BEM-VINDO(A) AO SIAP - HENE </h4>           -->
+      </div>
+    </div>
+  </div>
+  <!-- ====================================================================== -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg menu navbar-dark w3-round-large">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Início</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Cadastro
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../pages/index.html">Chegada no HE</a>
+              <a class="dropdown-item" href="#">Triagem</a>
+              <a class="dropdown-item" href="#">Usuário/Sistema</a>
+              <a class="dropdown-item" href="#">Tratamento</a>
+              <a class="dropdown-item" href="#">Hidromagnetoterapia</a>
+              <a class="dropdown-item" href="#">Médicos Espirituais</a>
+              <a class="dropdown-item" href="#">Mèdicos Materiais</a>
+            </div>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Cadastro
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Chegada no HE</a>
+              <a class="dropdown-item" href="#">Triagem</a>
+              <a class="dropdown-item" href="#">Usuário/Sistema</a>
+              <a class="dropdown-item" href="#">Tratamento</a>
+              <a class="dropdown-item" href="#">Hidromagnetoterapia</a>
+              <a class="dropdown-item" href="#">Médicos Espirituais</a>
+              <a class="dropdown-item" href="#">Mèdicos Materiais</a>
+              <a class="dropdown-item" href="#">Médiuns</a>
+            </div>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Cadastro
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Chegada no HE</a>
+              <a class="dropdown-item" href="#">Triagem</a>
+              <a class="dropdown-item" href="#">Usuário/Sistema</a>
+              <a class="dropdown-item" href="#">Tratamento</a>
+              <a class="dropdown-item" href="#">Hidromagnetoterapia</a>
+              <a class="dropdown-item" href="#">Médicos Espirituais</a>
+              <a class="dropdown-item" href="#">Mèdicos Materiais</a>
+              <a class="dropdown-item" href="#">Médiuns</a>
+            </div>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Cadastro
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Chegada no HE</a>
+              <a class="dropdown-item" href="#">Triagem</a>
+              <a class="dropdown-item" href="#">Usuário/Sistema</a>
+              <a class="dropdown-item" href="#">Tratamento</a>
+              <a class="dropdown-item" href="#">Hidromagnetoterapia</a>
+              <a class="dropdown-item" href="#">Médicos Espirituais</a>
+              <a class="dropdown-item" href="#">Mèdicos Materiais</a>
+              <a class="dropdown-item" href="#">Médiuns</a>
+            </div>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Cadastro
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Chegada no HE</a>
+              <a class="dropdown-item" href="#">Triagem</a>
+              <a class="dropdown-item" href="#">Usuário/Sistema</a>
+              <a class="dropdown-item" href="#">Tratamento</a>
+              <a class="dropdown-item" href="#">Hidromagnetoterapia</a>
+              <a class="dropdown-item" href="#">Médicos Espirituais</a>
+              <a class="dropdown-item" href="#">Mèdicos Materiais</a>
+              <a class="dropdown-item" href="#">Médiuns</a>
+            </div>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Termos
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" data-toggle="modal" href="#">Compromisso</a>
+              <a class="dropdown-item" data-toggle="modal" href="#">Voluntariado</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Voltar</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#">Sair</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- ========================================================================================== -->
+
+  <div class="container">
+    <form>
+      <div class="w3-panel w3-round-large w3-border w3-light-grey w3-border-green">
+        <h2 class="w3-text mb-0"><strong>TRIAGEM</strong></h2>
+        <span><small>(Nesta seção preencha todos os campos para efetivar o Cadastro no SIAP)</small></span>
+
+        <!-- ======================================================================================== -->
+
+        <!-- Início do primeiro bloco... -->
+        <!-- <div class="container"> -->
+        <div class="row">
+          <div class="w3-col s12">
+            <div class="w3-panel w3-round-large w3-small w3-border w3-border-green">
+
+              <header>
+                <h6><strong> DADOS INICIAIS</strong></h6>
+              </header>
+
+              <div class="w3-third ">
+                <label for="tipoUsuario">Tipo de Usuário</label>
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="tipoUser" id="tipoUserPac" value="paciente"
+                          onclick="tipoUsuario(this.id)" checked>
+                        <label class="form-check-label" for="tipoUserPac">
+                          Paciente
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="tipoUser" id="tipoUserVis" value="visitante"
+                          onclick="tipoUsuario(this.id)">
+                        <label class="form-check-label" for="tipoUserVis">
+                          Visitante
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="tipoUser" id="tipoUserAco"
+                          value="acompanhante" onclick="tipoUsuario(this.id)">
+                        <label class="form-check-label" for="tipoUserAco">
+                          Acompanhante
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w3-third">
+                <label for="tipoPaciente">Tipo de Paciente</label>
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="tipoPac" id="tipoPacPres" value="presencial"
+                          onclick="tipoPaciente(this.id)">
+                        <label class="form-check-label" for="tipoPacPres">
+                          Presencial
+                        </label>
+                      </div>
+                      <div id="tpPaciente">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="tipoPac" id="tipoPacDist" value="distancia"
+                            onclick="tipoPaciente(this.id)">
+                          <label class="form-check-label" for="tipoPacDist">
+                            À Distância
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="tipoPac" id="tipoPacDes"
+                            value="desenccarnado" onclick="tipoPaciente(this.id)">
+                          <label class="form-check-label" for="tipoPacDes">
+                            Desencarnado
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w3-third" id="divSitAtual">
+                <label for="tipoPaciente">Situação Atual</label>
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sitAtual" id="sitAtualIdoso" value="idoso"
+                          onclick="sitPaciente(this.id)">
+                        <label class="form-check-label" for="sitAtualIdoso">
+                          Idoso
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sitAtual" id="sitAtualGestante"
+                          value="gestante" onclick="sitPaciente(this.id)">
+                        <label class="form-check-label" for="sitAtualGestante">
+                          Gestante
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sitAtual" id="sitAtualCrianca"
+                          value="crianca" onclick="sitPaciente(this.id)">
+                        <label class="form-check-label" for="sitAtualCrianca">
+                          Criança
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sitAtual" id="sitAtualCEspec"
+                          value="especiais" onclick="sitPaciente(this.id)">
+                        <label class="form-check-label" for="sitAtualCEspec">
+                          Cuidados Especiais
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Fim do primeiro bloco... -->
+        <!-- ======================================================================================================= -->
+        <!-- Início do segundo bloco... -->
+        <div class="row">
+          <div class="w3-col">
+            <div class="w3-panel mt-1 w3-round-large w3-small w3-border w3-border-green mb-3">
+              <header>
+                <h6><strong> DADOS PESSOAIS</strong></h6>
+              </header>
+              <div class="w3-row-padding w3-small">
+                <div class="w3-col s8 l6 mt-3">
+                  <label for="idNome">Nome</label>
+                  <input class="form-control form-control-sm" id="idNome" type="text" placeholder="">
+                  <div class="invalid-feedback">Favor digitar o nome do paciente</div>
+                </div>
+                <div class="w3-col s4 l3 mt-3">
+                  <div class="form-group">
+                    <div class="row">
+                      <legend class="col-form-label col-sm-6 col-lg-2 pt-0"> Sexo</legend>
+                      <div class="col-sm-10">
+                        <div class="form-check-inline">
+                          <input class="form-check-input" type="radio" name="sexo" id="sexo1" value="masculino" checked>
+                          <label class="form-check-label" for="sexo1">
+                            Masculino
+                          </label>
+                        </div>
+                        <div class="form-check-inline">
+                          <input class="form-check-input" type="radio" name="sexo" id="sexo2" value="feminino">
+                          <label class="form-check-label" for="sexo2">
+                            Feminino
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w3-col s7 l3 mt-2">
+                  <label for="uname">Nascimento</label>
+                  <input class="form-control form-control-sm" type="date" id="dtNasc" name="aniversario">
+                </div>
+                <div class="w3-col s12 l4 mt-2">
+                  <label>Profissão</label>
+                  <input class="form-control form-control-sm" name="profissao" type="text" id="profissao">
+                </div>
+                <div class="w3-third w3-col s6 l2 mt-2">
+                  <label>RG</label>
+                  <input class="form-control form-control-sm" type="text" placeholder="">
+                </div>
+                <div class="w3-third w3-col s3 l1 mt-2">
+                  <label>Expedidor</label>
+                  <input class="form-control form-control-sm" type="text" placeholder="">
+                </div>
+                <div class="w3-third w3-col s3 l1 mt-2">
+                  <label>UF</label>
+                  <input class="form-control form-control-sm" type="text" placeholder="">
+                </div>
+                <div class="w3-third w3-col s12 l4 mt-2">
+                  <label>Religião</label>
+                  <input class="w3-input w3-round-large w3-border w3-border-green form-control form-control-sm"
+                    type="text" placeholder="">
+                </div>
+                <div class="w3-third w3-col s12 l7 mt-3 mb-3">
+                  <label>Nome da Mãe</label>
+                  <input class="form-control form-control-sm" name="nomeMae" type="text" id="nomeMae" size="40">
+                </div>
+                <div class="obito" id="obito">
+                  <div class="w3-col s5 l2 mt-3 mb-3 mr-2 ml-2">
+                    <label for="uname">Óbito</label>
+                    <input class="form-control form-control-sm" type="date" id="dataObito" name="aniversario">
+                  </div>
+                  <div class="w3-col s5 l2 mt-3 mb-3 ml-3">
+                    <label>Tempo Desencarne</label>
+                    <input class="form-control form-control-sm" type="text" placeholder="Somente leitura" readonly>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+      <div class="row">
+        <div class="w3-col s12">
+          <div class="w3-panel mt-1 w3-round-large w3-border w3-border-green">
+            <header>
+              <h6><strong> INFORMAÇÕES PARA CONTATO</strong></h6>
+            </header>
+            <div class="w3-row-padding w3-small">
+              <form method="get" action="#">
+                <div class="w3-third w3-col s6 l2 mt-2">
+                  <label>CEP</label>
+                  <input class="form-control form-control-sm" name="cep" type="text" id="cep" value="" size="10"
+                    maxlength="9" onblur="pesquisacep(this.value);">
+                </div>
+                <div class="w3-third w3-col s6 l3 mt-2">
+                  <label>País</label>
+                  <input class="form-control form-control-sm" type="text" placeholder="">
+                </div>
+                <div class="w3-third w3-col s12 l7 mt-2">
+                  <label>Endereço</label>
+                  <input class="form-control form-control-sm" name="rua" type="text" id="rua" size="60">
+                </div>
+                <div class="w3-third w3-col s4 l1 mt-2">
+                  <label>Nº</label>
+                  <input class="form-control form-control-sm" type="text" placeholder="">
+                </div>
+                <div class="w3-third w3-col s8 l2 mt-2">
+                  <label>Complemento</label>
+                  <input class="form-control form-control-sm" type="text" placeholder="">
+                </div>
+                <div class="w3-third w3-col s12 l4 mt-2">
+                  <label>Bairro</label>
+                  <input class="form-control form-control-sm" name="bairro" type="text" id="bairro" size="40">
+                </div>
+                <div class="w3-third w3-col s9 l5 mt-2">
+                  <label>Cidade</label>
+                  <input class="form-control form-control-sm" name="cidade" type="text" id="cidade" size="40">
+                </div>
+                <div class="w3-third w3-col s3 l2 mt-2">
+                  <label>Estado</label>
+                  <input class="form-control form-control-sm" name="uf" type="text" id="uf" size="2">
+                </div>
+                <div class="w3-half w3-col s6 mt-2">
+                  <label>Email</label>
+                  <input class="form-control form-control-sm text-lowercase" type="text" placeholder="">
+                </div>
+                <div class="w3-half w3-col s6 l4 mt-2">
+                  <label>Celular</label>
+                  <input class="form-control form-control-sm" type="text" placeholder="">
+                </div>
+              </form>
+            </div><br>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================================================================================================= -->
+      <div class="row">
+        <div class="w3-col s12" id="saude">
+          <div class="w3-panel mt-1 w3-round-large w3-small w3-border w3-border-green">
+            <header>
+              <h6><strong> DADOS DE SAÚDE</strong></h6>
+            </header>
+            <div class="row">
+              <div class="w3-third  w3-col s6 l4">
+                <div class="w3-panel">
+                  <label for="tipoPaciente">Toma Medicação Controlada?</label>
+                  <div class="panel-body">
+                    <div class="form">
+                      <label class="radio">
+                        <input type="radio" id="remedio1" name="medicacao" value="sim">
+                        Sim
+                      </label>
+                      <label class="radio">
+                        <input type="radio" id="remedio2" name="medicacao" value="nao" checked="">
+                        Não
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w3-third w3-col s6 l4">
+                <div class="w3-panel">
+                  <label for="tipoPaciente">Fuma?</label>
+                  <div class="form">
+                    <label class="radio">
+                      <input type="radio" id="Cigarros01" name="cigarros" value="sim">
+                      Sim
+                    </label>
+                    <label class="radio">
+                      <input type="radio" id="rdCigarros02" name="cigarros" value="nao" checked="">
+                      Não
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="w3-third w3-col s6 l4">
+                <div class="w3-panel">
+                  <label for="tipoPaciente">Faz uso de Bebida Alcoólica?</label>
+                  <div class="panel-body">
+                    <div class="form">
+                      <label class="radio">
+                        <input type="radio" id="rdBebe01" name="bebe" value="sim">
+                        Sim
+                      </label>
+                      <label class="radio">
+                        <input type="radio" id="rdBebe02" name="bebe" value="nao" checked="">
+                        Não
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w3-col s12">
+                <div class="w3-panel">
+                  <label for="tipoPaciente">Faz Tratamento Espiritual em outra Casa?</label>
+                  <div class="panel-body">
+                    <div class="form">
+                      <label class="radio">
+                        <input type="radio" id="trtCasa01" name="trtCasa" value="sim">
+                        Sim
+                      </label>
+                      <label class="radio">
+                        <input type="radio" id="trtCasa02" name="trtCasa" value="nao" checked="">
+                        Não
+                      </label>
+                    </div>
+                    <input type="text" class="form-control form-control-sm" placeholder="Qual?">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w3-col s12 responsavel" id='responsavel'>
+          <div class="w3-panel mt-1 w3-round-large w3-small w3-border w3-border-green">
+            <header>
+              <h6><strong> DADOS DO RESPONSÁVEL</strong></h6>
+            </header>
+            <div class="w3-row-padding">
+              <div class="w3-col s12 l8 mt-3">
+                <label>Nome</label>
+                <input class="form-control form-control-sm" type="text" placeholder="">
+              </div>
+              <div class="w3-third w3-col s4 l4 mt-3">
+                <label>RG</label>
+                <input class="form-control form-control-sm" type="text" placeholder="">
+              </div>
+              <div class="w3-third w3-col s4 l3 mt-3">
+                <label>Órgão Emissor</label>
+                <input class="form-control form-control-sm" type="text" placeholder="Sigla">
+              </div>
+              <div class="w3-third w3-col s4 l3 mt-3">
+                <label>UF</label>
+                <input class="form-control form-control-sm" type="text" placeholder="Sigla">
+              </div>
+              <div class="w3-col s6 l3 mt-3">
+                <div class="form-group">
+                  <div class="row">
+                    <legend class="col-form-label col-sm-6 col-lg-3 pt-0"> Sexo</legend>
+                    <div class="col-sm-10">
+                      <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="sexoResp" id="sexo3" value="masculino"
+                          checked>
+                        <label class="form-check-label" for="sexo3">
+                          Masculino
+                        </label>
+                      </div>
+                      <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="sexoResp" id="sexo4" value="feminino">
+                        <label class="form-check-label" for="sexo4">
+                          Feminino
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="w3-row-padding  w3-small w3-col s6 l3 mt-3">
+                <label for="uname">Nascimento</label>
+                <input class="form-control form-control-sm" type="date" id="dataNasc" name="aniversario">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fim do segundo bloco... -->
+
+        <!-- IÍCIO DO CAMPO MOTIVO DA CONSULTA -->
+        <div class="w3-col s12" id="consulta">
+          <div class="w3-panel mt-1 w3-round-large w3-small w3-border w3-border-green">
+            <header>
+              <h6><strong> MOTIVO DA CONSULTA</strong></h6>
+            </header>
+            <form action="/action_page.php">
+              <div class="form-group">
+                <label for="motivo"></label>
+                <textarea class="form-control" rows="5" id="motivo" name="text"></textarea>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- FIM DO CAMPO MOTIVO DA CONSULTA -->
+        <!-- ======================================================================================================= -->
+
+        <div class="w3-bar mb-3">
+          <button class="w3-button w3-round-large w3-left w3-green">Cadastrar</button>
+          <button class="w3-button w3-round-large w3-right w3-red">Cancelar</button>
+        </div>
+
+      </div>
+  </div>
+  </form>
+  </div>
+  <!-- ======================================================================================================= -->
+  <!-- Jquery.js, Popper.js e Bootstrap.js -->
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../js/functionsVisual.js"></script>
+  <!-- ============================================================================================= -->
+
+  <!-- ============================================================================================= -->
+
+
+
+</body>
+
+</html>

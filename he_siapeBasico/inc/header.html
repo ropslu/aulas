@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content='?php echo NOMEHOSPITAL;?>'>
+    <title><?php echo TITULO." - ".VERSAO;?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Link do favicoico-->
+    <link rel="shortcut icon" href='<?php echo IMG."/favicon.ico"; ?>' type="image/x-icon" />
+
+    <!-- Link referente ao Bootstrp4 -->
+    <link rel="stylesheet" href='<?php echo NODEMODULES."/bootstrap/dist/css/bootstrap.css";?>'>
+
+    <!-- Link referente a pasta CSS -->
+    <link rel="stylesheet" href='<?php echo CSS."/w3.css";?>'>
+    <link rel="stylesheet" href='<?php echo CSS."/style.css";?>'>
+    <!-- <link rel="stylesheet" href='<?php echo CSS."/form.css";?>'> -->
+
+    <!-- Link referente a Font Awesome -->
+    <link rel="stylesheet" href='<?php echo NODEMODULES."/@fortawesome/fontawesome-free/css/all.css";?>'>
+    
+    <script type="text/javascript" src='<?php echo JS."/jquery-3.5.1.min.js";?>'></script>
+
+
+
+</head>
+
+<body>
+
+            <div class="header">
+                <a href="#"><img src='<?php echo IMG."/HENE MUNDO BRANCO.png";?>' style="width:80px;"></a>
+                <ul>
+                    <h1><b>SIAP - HENE</b></h1>
+                </ul>
+            </div>
+
+    <?php
+// Include header
+include_once DINC."menu.html";
+
+?>
